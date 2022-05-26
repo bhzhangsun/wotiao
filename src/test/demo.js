@@ -54,7 +54,7 @@ var animate = function () {
 var render = function () {
   animate();
   mesh.rotation.set(0, currentAngle, 0);
-  mesh.visible = false
+  mesh.visible = true
   renderer.render(scene, camera);
   requestAnimationFrame(render);
 };

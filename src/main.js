@@ -1,11 +1,10 @@
-import GameController from './game/controller'
+import gameApp from './game/app'
 
 /**
  * 游戏主函数
  */
 function main() {
-  const controller = new GameController()
-  controller.initGame()
+  gameApp.init()
 }
 
 export default main;
