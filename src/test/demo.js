@@ -1,4 +1,4 @@
-import * as THREE from '../../libs/three'
+import * as THREE from '../../lib/three'
 
 var width = 375;
 var height = 679;
